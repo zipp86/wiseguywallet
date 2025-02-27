@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wallet App</title>
+</head>
+<body>
+    <h1>Wallet App</h1>
+    <form id="create-wallet-form">
+        <label for="wallet-name">Wallet Name:</label><br>
+        <input type="text" id="wallet-name" name="wallet-name"><br>
+        <input type="submit" value="Create Wallet">
+    </form>
+    <div id="wallet-list"></div>
+    <form id="exchange-form">
+        <label for="amount">Amount:</label><br>
+        <input type="number" id="amount" name="amount"><br>
+        <input type="submit" value="Exchange">
+    </form>
+    <div id="balance"></div>
+    <form id="transfer-form">
+        <label for="to">To:</label><br>
+        <input type="text" id="to" name="to"><br>
+        <label for="amount">Amount:</label><br>
+        <input type="number" id="amount" name="amount"><br>
+        <input type="submit" value="Transfer">
+    </form>
+    <div id="transactions"></div>
+    <form id="logout-form">
+        <input type="submit" value="Logout">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "wallet-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "flask run",
+    "test": "pytest tests"
+  },
+  "dependencies": {
+    "flask": "^2.0.1",
+    "flask-cors": "^3.0.9",
+    "flask-sqlalchemy": "^2.5.1",
+    "requests": "^2.25.1",
+    "cryptography": "^3.4.7",
+    "pytest": "^6.2.5"
+  },
+  "devDependencies": {
+    "pytest-cov": "^2.12.1"
+  }
+}
